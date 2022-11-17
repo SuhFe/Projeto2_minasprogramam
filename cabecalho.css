@@ -1,0 +1,43 @@
+.cabecalho {
+    background-color:#da491ccc;
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
+    border-bottom: 5px solid #da1cb1cc;
+}
+
+.cabecalho_logo {
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.cabecalho_navegacao ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cabecalho_link {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
